@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Тестовое</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="container__form" action="">
+        <div class="progress-block">
+          <div class="input__box">
+				<span class="required__tooltip">Это поле обязательно для заполнения</span>
+            <input type="text" required value="" class="value-info"/>
+            <label>Имя</label>
+          </div>
+          <div class="input__box">
+				<span class="required__tooltip">Это поле обязательно для заполнения</span>
+            <input type="text" required class="value-info"/>
+            <label>Ник в Telegram</label>
+          </div>
+          <div class="input__box">
+				<span class="required__tooltip">Это поле обязательно для заполнения</span>
+            <input type="text" required class="value-info"/>
+            <label>Ссылка на репозиторий этого задания</label>
+          </div>
+          <div class="input__box">
+				<span class="required__tooltip">Это поле обязательно для заполнения</span>
+            <textarea required class="value-info"></textarea>
+            <label>
+              Что вы точно не хотите делать в работе, что вы делаете с неохотой?
+            </label>
+          </div>
+        </div>
+        <div class="progress-block">
+          <div class="range__box">
+            <label>
+              Как вы оцениваете свою способность взаимодействовать с дизайном?
+            </label>
+            <p>
+              А именно, работу с векторами, внимательность к деталям,
+              возможность проявить инициативу - например, можете ли сверстать
+              макет адаптируя его для мобильных устройств с макета под десктоп?
+            </p>
+            <div class="length range__slider" data-min="0" data-max="100">
+					<input type="range" value="0" min="0" max="100"/>
+					<div class="sliderValue">
+						<span>0</span>
+					 </div>
+              <div class="length__block">
+                <div class="length__title field-title" data-length="0">0</div>
+                <div class="max-val">100</div>
+              </div>
+            </div>
+				<div class="input__box">
+					<textarea class="value-info" optinal></textarea>
+					<label>Ваш комментарий (по желанию)</label>
+				 </div>
+          </div>
+        </div>
+        <div class="progress-block">
+          <div class="range__box">
+            <label> Готовы ли работать с CSS анимацией? </label>
+            <p>
+              Часто нужна несложная CSS анимация без сторонних библиотек для
+              сопровождения какого-либо действия или плавной подачи информации,
+              но без фанатизма
+            </p>
+            <div class="length range__slider" data-min="0" data-max="100">
+					<input type="range" value="0" min="0" max="100"/>
+					<div class="sliderValue">
+						<span>0</span>
+					 </div>
+              <div class="length__block">
+                <div class="length__title field-title" data-length="0">0</div>
+                <div class="max-val">100</div>
+              </div>
+            </div>
+            <div class="input__box">
+              <textarea class="value-info" optinal></textarea>
+              <label>Ваш комментарий (по желанию)</label>
+            </div>
+          </div>
+        </div>
+        <div class="progress-block">
+          <div class="input__box">
+				<span class="required__tooltip">Это поле обязательно для заполнения</span>
+				<textarea required class="value-info"></textarea>
+            <label> Как вы относитесь к рутинной работе? </label>
+          </div>
+        </div>
+        <div class="progress-block">
+          <div class="input__box">
+				<span class="required__tooltip">Это поле обязательно для заполнения</span>
+            <textarea required class="value-info"></textarea>
+            <label>
+              Готовы ли посвятить все 100% своего времени на работу с нашими
+              задачами, не отвлекаясь на стороннюю разработку?
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn-submit">Отправить</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
