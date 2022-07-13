@@ -165,14 +165,17 @@ textarea {
 
 .range__box input[type="range"]::-webkit-slider-thumb:hover {
   background: #0ce2f4;
+  border: 1px solid #000;
 }
 
 .range__box input[type="range"]::-moz-range-thumb:hover {
   background: #0ce2f4;
+  border: 1px solid #000;
 }
 
 .range__box input[type="range"]::-ms-thumb:hover {
   background: #0ce2f4;
+  border: 1px solid #000;
 }
 
 .range__box input[type="range"]::-webkit-slider-runnable-track {
